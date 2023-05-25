@@ -1,0 +1,1912 @@
+[REU
+!This program cannot be run in DOS mode.
+lRich
+.text
+`.rdata
+@.data
+.rsrc
+@.reloc
+SVWP
+SSSSh
+1wXt?=YF
+t!=I
+9t!= V)G
+t=&Yx
+wYt-=&
+Y_^[
+SVWP
+SSSh
+Y_^[
+QPRj
+D$DWP
+L$ QP
+9D$,uG
+L$(Qj
+T$ RP
+^][3
+SUVWh
+VUhz
+L$(QUS
+PQVS
+<2W3
+_^][3
+FW^[Y
+VWht
+u-ht
+u-ht
+u-ht
+SVW3
+L$HV
+D$4Ph
+L$<QVR
+|$ ;
+L$ h,
+T$@RV
+D$H(
+|$H3
+u)ht
+D$dh<
+L$@QR
+D$ P
+_^[3
+t	VP
+;5D 
+SSSSS
+SSSSS
+^[_3
+u19=
+@_^]
+u WPS
+u&WVS
+uWS3
+ueSj
+@_^[
+ VW}
+j?^;
+Y__^[
+9csm
+t h8 
+VVVVV
+PPPPP
+<v8V
+VVVVV
+VVVVV
+VVVVV
+PPPPP
+@u^V
+, <Xw
+t%HHt
+HHtXHHt
+HHty+
+RPSW
+90tV
+>If90t
+WSj0
+WSj 
+^_[3
+t$h\
+u,9E
+j@j ^V
+[j@j 
+>=Yt1j
+tNVSP
+PPPPP
+Y[_^
+>"u&
+< tK<	tG
+@@f9
+@@f9
+SSS+
+@PWSS
+t!SS
+S99t
+URPQQh
+L$,3
+UVWS
+[_^]
+SVWj
+_^[]
+_^[]
+Y_^[
+Y_^[
+QSVW
+j h@
+t+Ht
+PPPPP
+0SSSSS
+_^[]
+_^[]
+0SSSSS
+0SSSSS
+_^[]
+VVVVV
+WWWWW
+WWWWW
+VVVVV
+VVVVV
+VVhU
+WWWWW
+VVVVV
+VVVVV
+0A@@Ju
+Y_^[]
+_^[]
+Fpt"
+^SSSSS
+j"^SSSSS
+QSWVj
+v	N+D$
+WWWWW
+uaVj
+uL9=
+;5D 
+wIVSP
+FVSj
+oV f
+o^0f
+of@f
+onPf
+ov`f
+o~pf
+SVWUj
+]_^[
+;t$,v-
+UQPXY]Y[
+WWWWW
+VW|[;
+_^[]
+VVVVV
+~%9M
+QVj	
+r 8^
+~,WPV
+98t^
+tVPV
+t/9U
+u8SS3
+GWh0
+9] u
+9]$SS
+t)9]
+t"SS9]
+9] u
+FVh0
+9] SS
+v$;5
+PPPPPPPP
+t&:a
+PPPPPPPP
+WWWWW
+_^[]
+WWWWW
+SSSSS
+WWWWV
+t<Vj
+t+WWVPV
+WWWWW
+WWWWW
+<Xt	
+u+9u
+CorExitProcess
+runtime error 
+TLOSS error
+SING error
+DOMAIN error
+R6034
+An application has made an attempt to load the C runtime library incorrectly.
+Please contact the application's support team for more information.
+R6033
+- Attempt to use MSIL code from this assembly during native code initialization
+This indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.
+R6032
+- not enough space for locale information
+R6031
+- Attempt to initialize the CRT more than once.
+This indicates a bug in your application.
+R6030
+- CRT not initialized
+R6028
+- unable to initialize heap
+R6027
+- not enough space for lowio initialization
+R6026
+- not enough space for stdio initialization
+R6025
+- pure virtual function call
+R6024
+- not enough space for _onexit/atexit table
+R6019
+- unable to open console device
+R6018
+- unexpected heap error
+R6017
+- unexpected multithread lock error
+R6016
+- not enough space for thread data
+This application has requested the Runtime to terminate it in an unusual way.
+Please contact the application's support team for more information.
+R6009
+- not enough space for environment
+R6008
+- not enough space for arguments
+R6002
+- floating point support not loaded
+Microsoft Visual C++ Runtime Library
+<program name unknown>
+Runtime Error!
+Program: 
+(null)
+( 8PX
+700WP
+`h````
+xpxxxx
+EncodePointer
+DecodePointer
+FlsFree
+FlsSetValue
+FlsGetValue
+FlsAlloc
+GetProcessWindowStation
+GetUserObjectInformationA
+GetLastActivePopup
+GetActiveWindow
+MessageBoxA
+USER32.DLL
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+HH:mm:ss
+dddd, MMMM dd, yyyy
+MM/dd/yy
+December
+November
+October
+September
+August
+July
+June
+April
+March
+February
+January
+Saturday
+Friday
+Thursday
+Wednesday
+Tuesday
+Monday
+Sunday
+CONOUT$
+SunMonTueWedThuFriSat
+JanFebMarAprMayJunJulAugSepOctNovDec
+('8PW
+700PP
+`h`hhh
+xppwpp
+\\.\pipe\%08X
+IDR_VNC_DLL
+/v /c:0x%08X
+ReflectiveLoader
+ntdll
+NtQueueApcThread
+kernel32.dll
+IsWow64Process
+GetNativeSystemInfo
+ProcessIdToSessionId
+WTSGetActiveConsoleSessionId
+SeDebugPrivilege
+kernel32
+CreateToolhelp32Snapshot
+Process32First
+Process32Next
+csrss.exe
+OpenProcessToken
+LookupPrivilegeValueA
+AdjustTokenPrivileges
+ADVAPI32.dll
+WSACreateEvent
+WSAEventSelect
+WSADuplicateSocketA
+WS2_32.dll
+WaitForInputIdle
+USER32.dll
+PeekNamedPipe
+ConnectNamedPipe
+GetTickCount
+Sleep
+ReadFile
+DisconnectNamedPipe
+GetLastError
+CreateNamedPipeA
+CloseHandle
+FindResourceA
+LoadResource
+GetCurrentProcess
+WaitForSingleObject
+TerminateThread
+SizeofResource
+SetLastError
+VirtualAllocEx
+LockResource
+WaitForMultipleObjects
+CreateMutexA
+DuplicateHandle
+ReleaseMutex
+GetCurrentProcessId
+WriteProcessMemory
+CreateThread
+ExitProcess
+SetUnhandledExceptionFilter
+ExitThread
+FreeLibrary
+VirtualFree
+CreateRemoteThread
+OpenProcess
+Thread32First
+Thread32Next
+GetProcAddress
+VirtualAlloc
+LoadLibraryA
+OpenThread
+CreateToolhelp32Snapshot
+SuspendThread
+ResumeThread
+HeapFree
+HeapAlloc
+GetCurrentThreadId
+GetCommandLineA
+TerminateProcess
+UnhandledExceptionFilter
+IsDebuggerPresent
+HeapCreate
+HeapDestroy
+DeleteCriticalSection
+LeaveCriticalSection
+EnterCriticalSection
+HeapReAlloc
+GetModuleHandleW
+WriteFile
+GetStdHandle
+GetModuleFileNameA
+TlsGetValue
+TlsAlloc
+TlsSetValue
+TlsFree
+InterlockedIncrement
+InterlockedDecrement
+SetHandleCount
+GetFileType
+GetStartupInfoA
+FreeEnvironmentStringsA
+GetEnvironmentStrings
+FreeEnvironmentStringsW
+WideCharToMultiByte
+GetEnvironmentStringsW
+QueryPerformanceCounter
+GetSystemTimeAsFileTime
+InitializeCriticalSectionAndSpinCount
+RtlUnwind
+SetFilePointer
+GetConsoleCP
+GetConsoleMode
+GetCPInfo
+GetACP
+GetOEMCP
+IsValidCodePage
+HeapSize
+GetLocaleInfoA
+SetStdHandle
+WriteConsoleA
+GetConsoleOutputCP
+WriteConsoleW
+MultiByteToWideChar
+LCMapStringA
+LCMapStringW
+GetStringTypeA
+GetStringTypeW
+CreateFileA
+FlushFileBuffers
+KERNEL32.dll
+vncdll.dll
+_ReflectiveLoader@0
+                          
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                          
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+AQAPRQVH1
+JJM1
+RAQH
+AXAX^YZAXAYAZH
+XAYZH
+AQAQI
+;}$u
+D$$[[aYZQ
+6QQh8h
+AQAPRQVH1
+JJM1
+RAQH
+AXAX^YZAXAYAZH
+XAYZH
+B0H9
+!This program cannot be run in DOS mode.
+Rich
+.text
+`.rdata
+@.data
+.reloc
+QPRj
+*h N
+t,hH
+;Jt~}
+;Pp~y
+;Qt~F
+Hl;M
+Hl;M
+yh`~O
+;Bh}
+;Qh}
+j8h(
+Pj	j
+Jh;Hlu
+Bl;E
+j8h(
+j8h(
+U 9U
+E +E
+M +M
+U 9U
+E +E
+M +M
+U 9U
+E +E
+M +M
+;H s
+;H r
+;H<}W
+;Q4}a
+H4+M
+;Q4}"
+;B4}
+;H8}\
+;B4}$
+A@;B(u
+A<;B$t
+;B<}4
+Qj j
+;Q<}
+;H<}
+;Q<}C
+Qj j
+;Q<}C
+;B<}
+;H<|*
+;Q<}1
+;B<}0
+;H<}
+;H<}K
+;H<}E
+H0+M
+;B<}-
+;E so
+;B<}6
+A<+B4
+J0;H up
+;H<}S
+B0+E
+P4;Q<}S
+;Q<}*
+P4;Q<
+B8;E
+B4;E
+;H<}L
+Qh;U
+;B||#
+BL+E
+HL+M
+}$8t
+Q|;U
+Qd;U
+Hd+M
+Pd+QTR
+Pd+QT
+Pd+QTR
+Jd+HTQ
+J4+Hl
+Bh+E
+Bd+E
+BT+E
+Ad#B,
+Bd+E
+Jd+Hhf
+Al+BX
+JX;Hx
+Ad#B,
+Jd+HTQ
+Ad+BTP
+9Jdv
+;Qlv	
+;Hlw
+Ad#B,
+Pp;Qxsv
+Hd+M
+Jd+Hh
+AX;Bp
++A\f
+Hd;M
+Ad#B,
+Pd+QTR
+Ad+BTP
+Jd+HTQ
+3333
+%3333
+H0;M
+B0;E
+A`;BXtL
+Ph;QXtN
+Pp;QXtN
+Rh&Yx
+Qh7P
+Ph V)G
+QhYF
+RhEc
+B jl
+;H|u 
+DSVW
+H4Qj
+t4jL
+A`+BXP
+A\+BTP
+Bpj&
+A\+BT
+J`+HX
++BXP
++QTR
++BXP
++BTP
+A`+BX+E
+XSVW
+t&jL
+.u3j
+$SVW
+PSVW
+DSVW
+Ht;M
+Ph41
+;H\tM
+;H`tA
+;HdtB
+;Hht	
+J +H
+P$+Q
+u&hX
+DSVW
+DSVW
+DSVW
+u1hX
+u0hX
+t3hX
+Phl1
+Mh|(
+t	VP
+SSSSS
+SSSSS
+QQSVWd
+QSVW
+WWWWW
+<Xt	
+u+9u
+^[_3
+VC20XC00U
+SVWU
+tfVU
+tLxXj
+]_^[
+VVVVV
+@uwS
+VVVVV
+SSSSS
+QSVW
+<$Xf
+~,WPV
+98t^
+tVPV
+t/9U
+SSSSS
+WWWWW
+<8=u
+VVVVV
+t&:a
+Sj Z
+0;1t|
+PPPPPPPP
+WVS3
+PPPPP
+_^[]
+^_[3
+0WWWWW
+X_^]
+tG9}
+0WWWWW
+u19=
+@_^]
+u WPS
+u&WVS
+uWS3
+ueSj
+@_^[
+ VW}
+j?^;
+Y__^[
+9csm
+PPPPP
+@u^V
+, <Xw
+t%HHt
+HHtXHHt
+HHty+
+RPSW
+90tV
+>If90t
+WSj0
+WSj 
+oV f
+o^0f
+of@f
+onPf
+ov`f
+o~pf
+VVVVV
+PPPPP
+<v8V
+VVVVV
+VVVVV
+VVVVV
+@_^]
+=MOC
+=csm
+8csm
+9csm
+~SSV
+~@;H
+>csm
+taSV
+YYPV
+t)SV
+Hu4j
+>MOC
+s[S;7|G;w
+9>u&
+tR99u2
+r,9Y
+@_^[]
+0A@@Ju
+to=`
+Y_^[]
+_^[]
+Fpt"
+>csm
+YY^]
+SVWUj
+]_^[
+;t$,v-
+UQPXY]Y[
+0SVW
+Y_^[
+Y_^[
+Y_^[
+_^[]
+Y_^[
+Y_^[
+S99t
+t+Ht
+PPPPP
+uNSW
+j@j ^V
+[j@j 
+VVVVV
+u,9E
+u,9E
+WWWWW
+_VVVVV
+SSSSS
+80t.
+SSSSS
+^WWWWW
+SQRP
+jdRP
+PPPPP
+Wj0V
+SSSSS
+SSSSS
+|-;E
+VVVVV
+VVVVV
+VVVVV
+VVhU
+WWWWW
+SSSSS
+WWWWW
+SSSSS
+SSSSS
+tl9]
+tC9]
+Ht$C
+CC@@
+Ht(f
+CC+]
+VVVVV
+VVVVV
+@SuzP
+VVVVV
+jdZ;
+>]u	
+^F<-uB
+]t7F:
+j0^9
+<xtX<XtT
+`<%u
+?%uD
+SSSSS
+SSSSS
+QQSV3
+VVVVj
+tCVV
+0SSSSS
+_^[]
+@A;E
+WWWWW
+uaVj
+uL9=p
+u8SS3
+9] u
+9]$SS
+t)9]
+t"SS9]
+9] u
+>=Yt1j
+tNVSP
+PPPPP
+Y[_^
+>"u&
+< tK<	tG
+@@f9
+@@f9
+SSS+
+@PWSS
+t!SS
+URPQQh
+L$,3
+UVWS
+[_^]
+SVWj
+_^[]
+WWWWW
+WWWWW
+VVVVV
+^SSSSS
+j"^SSSSS
+QSWVj
+v	N+D$
+0SSSSS
+_^[]
+_^[]
+0SSSSS
+VVVVV
+9] SS
+v$;5
+PPPPPPPP
+wIVSP
+FVSj
+SSSSS
+_^[]
+WWWWW
+_^[]
+WWWWW
+SSSSW
+SSSSW
+0SSSSS
+@PWV
+_^[]
+PPPPP
+WVU3
+v	N+D$
+_VVVVV
+~%9M
+QVj	
+r 8^
+VW|[;
+_^[]
+VVVVV
+@WuyV
+WWWWW
+[_^]
+SVW3
+t{~Bj
+t1SW
+SSSSS
+SSSSS
+SSSSS
+tSj=V
+u`9]
+Y|R9
+?sjj
+@Y@P
+t\VV
+@Y@PW
+SSSSS
+WWWWV
+t<Vj
+t+WWVPV
+VW9]
+SSSSS
+SSSSS
+WWWWW
+r"9U
+r"9U
+9]$u
+SSSSS
+<+t(<-t$:
++t HHt
+VVVVV
+VVVVV
+u	9p
+u	9E
+K<5}
+;9u	
+0K;]
+SSSSS
+_^[]
+SSSSS
+@tH9
+bad allocation
+\\.\pipe\%08X
+UnlockWindowStation
+user32.dll
+WinSta0
+cmd.exe
+Metasploit Courtesy Shell (TM)
+%s\%s
+CoRRE
+%s: unusual colour = %d
+getBgColour
+getBgColour: bpp %d?
+Hextile
+Tight
+1.1.4
+Zlib
+ZlibHex
+sAmTb
+BKbhTb~XBK!;
+A!;I2
+$3br
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+	#3R
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+sAmTb
+BKbhTb~XBK!;
+A!;I2
+Application transferred too many scanlines
+Invalid SOS parameters for sequential JPEG
+Corrupt JPEG data: found marker 0x%02x instead of RST%d
+Premature end of JPEG file
+Warning: unknown JFIF revision number %d.%02d
+Corrupt JPEG data: bad Huffman code
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: %u extraneous bytes before marker 0x%02x
+Inconsistent progression sequence for component %d coefficient %d
+Unknown Adobe color transform code %d
+Obtained XMS handle %u
+Freed XMS handle %u
+Unrecognized component IDs %d %d %d, assuming YCbCr
+JFIF extension marker: RGB thumbnail image, length %u
+JFIF extension marker: palette thumbnail image, length %u
+JFIF extension marker: JPEG-compressed thumbnail image, length %u
+Opened temporary file %s
+Closed temporary file %s
+  Ss=%d, Se=%d, Ah=%d, Al=%d
+    Component %d: dc=%d ac=%d
+Start Of Scan: %d components
+Start of Image
+    Component %d: %dhx%dv q=%d
+Start Of Frame 0x%02x: width=%u, height=%u, components=%d
+Smoothing not supported with nonstandard sampling ratios
+RST%d
+At marker 0x%02x, recovery action %d
+Selected %d colors for quantization
+Quantizing to %d colors
+Quantizing to %d = %d*%d*%d colors
+        %4u %4u %4u %4u %4u %4u %4u %4u
+Unexpected marker 0x%02x
+Miscellaneous marker 0x%02x, length %u
+    with %d x %d thumbnail image
+JFIF extension marker: type 0x%02x, length %u
+Warning: thumbnail image size does not match data length %u
+JFIF APP0 marker: version %d.%02d, density %dx%d  %d
+        %3d %3d %3d %3d %3d %3d %3d %3d
+End Of Image
+Obtained EMS handle %u
+Freed EMS handle %u
+Define Restart Interval %u
+Define Quantization Table %d  precision %d
+Define Huffman Table 0x%02x
+Define Arithmetic Table 0x%02x: 0x%02x
+Unknown APP14 marker (not Adobe), length %u
+Unknown APP0 marker (not JFIF), length %u
+Adobe APP14 marker: version %d, flags 0x%04x 0x%04x, transform %d
+Caution: quantization tables are too coarse for baseline JPEG
+6b  27-Mar-1998
+Copyright (C) 1998, Thomas G. Lane
+Write to XMS failed
+Read from XMS failed
+Image too wide for this implementation
+Virtual array controller messed up
+Unsupported marker type 0x%02x
+Application transferred too few scanlines
+Write failed on temporary file --- out of disk space?
+Seek failed on temporary file
+Read failed on temporary file
+Failed to create temporary file %s
+Invalid JPEG file structure: SOS before SOF
+Invalid JPEG file structure: two SOI markers
+Unsupported JPEG process: SOF type 0x%02x
+Invalid JPEG file structure: missing SOS marker
+Invalid JPEG file structure: two SOF markers
+Cannot quantize to more than %d colors
+Cannot quantize to fewer than %d colors
+Cannot quantize more than %d color components
+Insufficient memory (case %d)
+Not a JPEG file: starts with 0x%02x 0x%02x
+Quantization table 0x%02x was not defined
+JPEG datastream contains no image
+Huffman table 0x%02x was not defined
+Backing store not supported
+Requested feature was omitted at compile time
+Not implemented yet
+Invalid color quantization mode change
+Scan script does not transmit all data
+Cannot transcode due to multiple use of quantization table %d
+Premature end of input file
+Empty input file
+Maximum supported image dimension is %u pixels
+Missing Huffman code table entry
+Huffman code size table overflow
+Fractional sampling not implemented yet
+Output file write error --- out of disk space?
+Input file read error
+Didn't expect more than one scan
+Write to EMS failed
+Read from EMS failed
+Empty JPEG image (DNL not supported)
+Bogus DQT index %d
+Bogus DHT index %d
+Bogus DAC value 0x%x
+Bogus DAC index %d
+Unsupported color conversion request
+Too many color components: %d, max %d
+CCIR601 sampling not implemented yet
+Suspension not allowed here
+Buffer passed to JPEG library is too small
+Bogus virtual array access
+JPEG parameter struct mismatch: library thinks size is %u, caller expects %u
+Improper call to JPEG library in state %d
+Invalid scan script at entry %d
+Bogus sampling factors
+Invalid progressive parameters at scan script entry %d
+Invalid progressive parameters Ss=%d Se=%d Ah=%d Al=%d
+Unsupported JPEG data precision %d
+Invalid memory pool code %d
+Sampling factors too large for interleaved scan
+Wrong JPEG library version: library is %d, caller expects %d
+Bogus marker length
+Bogus JPEG colorspace
+Bogus input colorspace
+Bogus Huffman table definition
+IDCT output block size %d not supported
+DCT coefficient out of range
+Invalid component ID %d in SOS
+Bogus buffer control mode
+MAX_ALLOC_CHUNK is wrong, please fix
+ALIGN_TYPE is wrong, please fix
+Sorry, there are legal restrictions on arithmetic coding
+Bogus message code %d
+%ld%c
+JPEGMEM
+ n;^
+Qkkbal
+i]Wb
+9a&g
+MGiI
+wn>Jj
+#.zf
++o*7
+- deflate 1.1.4 Copyright 1995-2002 Jean-loup Gailly 
+need dictionary
+ inflate 1.1.4 Copyright 1995-2002 Mark Adler 
+								
+incompatible version
+buffer error
+insufficient memory
+data error
+stream error
+file error
+stream end
+winsta.dll
+WinStationConnectW
+kernel32.dll
+WTSGetActiveConsoleSessionId
+ProcessIdToSessionId
+LockWorkStation
+DISPLAY
+User32.DLL
+EnumDisplayDevicesA
+DEVICE0
+SYSTEM\CurrentControlSet\Hardware Profiles\Current\System\CurrentControlSet\Services
+ChangeDisplaySettingsExA
+Attach.ToDesktop
+Order.BltCopyBits.Enabled
+Cap.DfbBackingMode
+Pointer.Enabled
+Screen.ForcedBpp
+RFB %03d.%03d
+VNCAUTH_
+STDV
+Authentication failed
+NEWFBSIZ
+LASTRECT
+POINTPOS
+RCHCURSR
+X11CURSR
+JPEGQLVL
+COMPRLVL
+TIGHT___
+ZLIBHEX_
+ZLIB____
+TRDV
+HEXTILE_
+CORRE___
+RRE_____
+COPYRECT
+FTC_UPFL
+FTC_DNCN
+FTC_UPDT
+FTC_UPRQ
+FTC_DNRQ
+FTC_LSRQ
+FTS_DNFL
+FTS_UPCN
+FTS_DNDT
+FTS_LSDT
+TGHT
+Error writing file data
+Server does not support data compression on upload
+Could not create file
+Path length exceeds MAX_PATH value
+Cannot open file, perhaps it is absent or is a directory
+Path length exceeds 255 bytes
+Cannot impersonate logged on user
+<unknown>
+[unknown]
+VNCHooks.CopyRect.WindowPos
+WinVNC desktop sink
+WindowsScreenSaverClass
+Screen-saver
+WinVNC
+ConsoleWindowClass
+WinVNC.Update.DrawRect
+WinVNC.Update.CopyRect
+WinVNC.Update.Mouse
+WinVNC.Local.Keyboard
+WinVNC.Local.Mouse
+WinVNC_Win32_Instance_Mutex
+map/set<T> too long
+invalid map/set<T> iterator
+list<T> too long
+localhost
+GetMonitorInfoA
+MonitorFromPoint
+Default
+SAS window class
+SAS window
+Winlogon
+<unavailable>
+string too long
+invalid string position
+CorExitProcess
+Unknown exception
+(null)
+( 8PX
+700WP
+`h````
+xpxxxx
+runtime error 
+TLOSS error
+SING error
+DOMAIN error
+R6034
+An application has made an attempt to load the C runtime library incorrectly.
+Please contact the application's support team for more information.
+R6033
+- Attempt to use MSIL code from this assembly during native code initialization
+This indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.
+R6032
+- not enough space for locale information
+R6031
+- Attempt to initialize the CRT more than once.
+This indicates a bug in your application.
+R6030
+- CRT not initialized
+R6028
+- unable to initialize heap
+R6027
+- not enough space for lowio initialization
+R6026
+- not enough space for stdio initialization
+R6025
+- pure virtual function call
+R6024
+- not enough space for _onexit/atexit table
+R6019
+- unable to open console device
+R6018
+- unexpected heap error
+R6017
+- unexpected multithread lock error
+R6016
+- not enough space for thread data
+This application has requested the Runtime to terminate it in an unusual way.
+Please contact the application's support team for more information.
+R6009
+- not enough space for environment
+R6008
+- not enough space for arguments
+R6002
+- floating point support not loaded
+Microsoft Visual C++ Runtime Library
+<program name unknown>
+Runtime Error!
+Program: 
+bad exception
+EncodePointer
+DecodePointer
+FlsFree
+FlsSetValue
+FlsGetValue
+FlsAlloc
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+e+000
+GAIsProcessorFeaturePresent
+KERNEL32
+GetProcessWindowStation
+GetUserObjectInformationA
+GetLastActivePopup
+GetActiveWindow
+MessageBoxA
+USER32.DLL
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+HH:mm:ss
+dddd, MMMM dd, yyyy
+MM/dd/yy
+December
+November
+October
+September
+August
+July
+June
+April
+March
+February
+January
+Saturday
+Friday
+Thursday
+Wednesday
+Tuesday
+Monday
+Sunday
+ Complete Object Locator'
+ Class Hierarchy Descriptor'
+ Base Class Array'
+ Base Class Descriptor at (
+ Type Descriptor'
+`local static thread guard'
+`managed vector copy constructor iterator'
+`vector vbase copy constructor iterator'
+`vector copy constructor iterator'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector vbase copy constructor iterator'
+`eh vector copy constructor iterator'
+`managed vector destructor iterator'
+`managed vector constructor iterator'
+`placement delete[] closure'
+`placement delete closure'
+`omni callsig'
+ delete[]
+ new[]
+`local vftable constructor closure'
+`local vftable'
+`RTTI
+`udt returning'
+`copy constructor closure'
+`eh vector vbase constructor iterator'
+`eh vector destructor iterator'
+`eh vector constructor iterator'
+`virtual displacement map'
+`vector vbase constructor iterator'
+`vector destructor iterator'
+`vector constructor iterator'
+`scalar deleting destructor'
+`default constructor closure'
+`vector deleting destructor'
+`vbase destructor'
+`string'
+`local static guard'
+`typeof'
+`vcall'
+`vbtable'
+`vftable'
+operator
+ delete
+ new
+__unaligned
+__restrict
+__ptr64
+__clrcall
+__fastcall
+__thiscall
+__stdcall
+__pascal
+__cdecl
+__based(
+('8PW
+700PP
+`h`hhh
+xppwpp
+SunMonTueWedThuFriSat
+JanFebMarAprMayJunJulAugSepOctNovDec
+1#QNAN
+1#INF
+1#IND
+1#SNAN
+CONOUT$
+WSASocketA
+WS2_32.dll
+ReleaseMutex
+CloseHandle
+WriteFile
+WaitNamedPipeA
+GetLastError
+CreateFileA
+WaitForSingleObject
+FreeLibrary
+GetProcAddress
+LoadLibraryA
+Sleep
+CreateProcessA
+CreateMutexA
+ExitThread
+VirtualFree
+InitializeCriticalSection
+DeleteCriticalSection
+EnterCriticalSection
+LeaveCriticalSection
+ReleaseSemaphore
+CreateSemaphoreA
+SetThreadPriority
+TlsSetValue
+GetCurrentThreadId
+DuplicateHandle
+GetCurrentThread
+GetCurrentProcess
+TlsAlloc
+ResumeThread
+TlsGetValue
+GetSystemTime
+GetCurrentProcessId
+UnmapViewOfFile
+CreateDirectoryA
+SetFileTime
+FindClose
+FindNextFileA
+FindFirstFileA
+SetErrorMode
+GetLogicalDriveStringsA
+GetComputerNameA
+DeleteFileA
+SystemTimeToFileTime
+GlobalAddAtomA
+GlobalDeleteAtom
+GetVersionExA
+GlobalUnlock
+GlobalLock
+GlobalAlloc
+SetEvent
+KERNEL32.dll
+GetProcessWindowStation
+SetThreadDesktop
+OpenInputDesktop
+SetProcessWindowStation
+OpenWindowStationA
+SetWindowPos
+FindWindowA
+GetUserObjectInformationA
+GetIconInfo
+SetRect
+ReleaseDC
+GetDC
+CloseDesktop
+GetThreadDesktop
+EnumDisplaySettingsA
+keybd_event
+GetKeyboardState
+mouse_event
+GetWindowRect
+GetDesktopWindow
+GetSystemMetrics
+IntersectRect
+IsRectEmpty
+GetCursorPos
+DispatchMessageA
+WaitMessage
+PeekMessageA
+PostMessageA
+DestroyWindow
+ChangeClipboardChain
+KillTimer
+GetClassNameA
+SystemParametersInfoA
+EnumDesktopWindows
+OpenDesktopA
+ChangeDisplaySettingsA
+SetClipboardViewer
+SetWindowLongA
+CreateWindowExA
+RegisterClassExA
+LoadCursorA
+DrawIconEx
+CloseClipboard
+SetClipboardData
+EmptyClipboard
+OpenClipboard
+RemovePropA
+SetPropA
+IsWindowVisible
+GetPropA
+GetWindowLongA
+EnumWindows
+DefWindowProcA
+GetClipboardData
+GetClipboardOwner
+SendMessageA
+PostQuitMessage
+EqualRect
+SetTimer
+WindowFromPoint
+GetForegroundWindow
+RegisterWindowMessageA
+GetAsyncKeyState
+MapVirtualKeyA
+VkKeyScanA
+MessageBeep
+ExitWindowsEx
+USER32.dll
+GetBitmapBits
+GetObjectA
+DeleteObject
+GetSystemPaletteEntries
+DeleteDC
+ExtEscape
+CreateDCA
+GetDIBits
+CreateCompatibleBitmap
+GetDeviceCaps
+CreateCompatibleDC
+RealizePalette
+SelectPalette
+CreatePalette
+GetStockObject
+CreateDIBSection
+BitBlt
+SelectObject
+GdiFlush
+CombineRgn
+CreateRectRgnIndirect
+CreateRectRgn
+GetRegionData
+GDI32.dll
+RevertToSelf
+RegCloseKey
+RegCreateKeyA
+RegSetValueExA
+RegDeleteValueA
+GetUserNameA
+ImpersonateLoggedOnUser
+ADVAPI32.dll
+HeapFree
+HeapAlloc
+RtlUnwind
+GetSystemTimeAsFileTime
+GetModuleHandleW
+ExitProcess
+RaiseException
+CreateThread
+TerminateProcess
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+IsDebuggerPresent
+GetCommandLineA
+HeapCreate
+HeapDestroy
+VirtualAlloc
+HeapReAlloc
+GetStdHandle
+GetModuleFileNameA
+TlsFree
+InterlockedIncrement
+SetLastError
+InterlockedDecrement
+GetCPInfo
+GetACP
+GetOEMCP
+IsValidCodePage
+VirtualQuery
+InitializeCriticalSectionAndSpinCount
+SetHandleCount
+GetFileType
+GetStartupInfoA
+HeapSize
+GetModuleHandleA
+WideCharToMultiByte
+GetConsoleCP
+GetConsoleMode
+FlushFileBuffers
+MultiByteToWideChar
+ReadFile
+LCMapStringA
+LCMapStringW
+FreeEnvironmentStringsA
+GetEnvironmentStrings
+FreeEnvironmentStringsW
+GetEnvironmentStringsW
+QueryPerformanceCounter
+GetTickCount
+SetFilePointer
+GetStringTypeA
+GetStringTypeW
+GetLocaleInfoA
+WriteConsoleA
+GetConsoleOutputCP
+WriteConsoleW
+SetStdHandle
+CompareStringA
+CompareStringW
+SetEnvironmentVariableA
+vnc.dll
+?ReflectiveLoader@@YGIPAX@Z
+.?AVvncEncodeCoRRE@@
+.?AVvncEncoder@@
+.?AVvncEncodeHexT@@
+.?AVvncEncodeRRE@@
+.?AVvncEncodeTight@@
+.?AVvncEncodeZlib@@
+.?AVvncEncodeZlibHex@@
+.?AVomni_thread_fatal@@
+.?AV_internal_omni_thread_dummy@@
+.?AVomni_thread@@
+.?AVomni_thread_invalid@@
+80( 
+91)!
+:2*"
+;3+#>6.&
+=5-%
+<4,$
+'2, /+0&7!4-)1#
+.?AVFileTransferItemInfo@@
+Mirage Driver
+DemoForge Mirage Driver
+dfmirage
+.?AVvncClientThread@@
+.?AVvncClient@@
+.?AVbad_alloc@std@@
+.?AVexception@std@@
+.?AVvncDesktopThread@@
+.?AVlength_error@std@@
+.?AVlogic_error@std@@
+.?AVout_of_range@std@@
+.?AVvncServer@@
+.?AVvncCorbaConnect@@
+.?AVvncSockConnect@@
+.?AVvncSockConnectThread@@
+.?AVVSocket@@
+.?AVtype_info@@
+.?AVbad_exception@std@@
+                          
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                          
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+kU'9
+HMXB
+?Zd;
+?/L[
+S;uD
+z?aUY
+D?$?
+U>c{
+zc%C1
+.:3q
+-64OS
+NKeb
+7%727P7Z7
+8$828p8v8
+;B;f;
+<I=0>9>@>F>
+>-?I?
+00d0
+0>1Z:
+='=0=
+3,414S4`4j4y4
+2*3Y3V4
+7>7[7i7
+7D?x?
+406d6n6v6
+637_9
+=,>1>S>`>j>y>
+9%9+90969<9T9Z9_9
+-:M:m:
+;6<r<
+>a>k>{>
+0&0:0[0e0y0
+263S3p3z3
+3;4S4}4
+656?6S6
+7.8?>
+0O8q819i9}9
+:Z:d:y:
+:.;8;M;
+?2i2s2
+4E5O5U5
+3P4Z4f4p4
+?3J4
+]8y8
+v0q2
+6d=n=
+>%>`>
+:&:0:X:q=
+=*?o?{?
+9'919;9E9O9Y9c9
++0o0
+2Y4k4
+7V7,;B;[;t;
+2A;[;};
+0 0>0
+6S9X9
+95;O;
+5C9Y9o9
+9,:B:X:n:
+<2<i<
+7 707A7
+>->>>s>
+0B1G1i1y1
+242M2
+2$3B3M3n3{3
+3X4]4
+515>5C5P5l5y5
+6 686T6
+7 7<7F7d7n7{7
+7#8<8t8
+9E9R9_9l9
+V3@4$8(8,8084888<8@8D8F;c;~<
+N1d1F2
+8Z8s8
+:4:r:
+: ;9;w;
+<E<^<
+=S=l=
+> >a>z>
+?.?o?
+#0<0}0
+2.2H2T2g2y2
+2U3j3J8
+041s1
+1f2 4P4
+066v7f8
+=(>->h>
+243B3
+4!4j4x4
+7T9[9a9h9
+:N:[:
+:F;Q;X;{<
+===M=S=i=v=
+*050
+8+8<8X8|8
+9!9G9T9
+060~0
+2O2`2
+5^7p7
+838L8_8h8{8
+8<9B9^9
+:*;0;
+<*<F<^>l>
+>G?P?e?
+2g5z5
+8D8d8
+>f>r>
+<"<v?
+666f6
+:v;h?m?
+0#0:0
+1C1h1
+102i2
+4;5]5b5
+6'7M7
+6V:C>
+F596
+1:2H2&5
+9v;Z=`=u=
+0f2&4
+4v6i7
+8f8W9
+?)?2?;?B?H?h?
+0.0G0l0v0
+171W1t1
+2"3t3z3
+3&303M3^3p3
+5'5,50545]5
+7=7D7H7L7P7T7X7\7`7
+8j8p8
+:u:.;F;K;
+=5>=>R>]>
+3H4Q4~4
+40585K5V5[5k5u5|5
+6D6Q6{6
+6P7]7f7
+9+9=9K9`9j9
+;t;{;
+;?<K<U<
+=!=J=O=f=
+>+>B>^>
+>0x1
+x:|:
+=W>a>n>
+>P?d?
+(0@0
+2(2/272<2@2D2m2
+3$3(3,303
+4M4T4X4\4`4d4h4l4p4
+4!7=7`7s7
+828:8@8
+:G:|:
+;!;K;Y;_;
+?5?:?I?R?_?j?|?
+0!0'050<0A0J0W0]0w0
+5W7b7j7}7
+9[9p:w:
+;$<B<h<
+A011
+7{809N9
+9%:*:R:w:
+:$;1;K<X<k<3=Y>R?
+9+929F9M9t9z9
+:-:3:H:Y:e:s:y:
+<E=U=[=g=m=}=
+>%>1>6>;>A>E>K>P>V>[>j>
+? ?<?
+0E2V2
+3*343G3k3
+3Z4w4
+4+5J5
+626K6g6p6v6
+;	<#<,<
+=P>d>l>z>
+0)050:0\0|0
+2!2'2
+2!3'3@3F3
+4 4%454d4r4
+5(676F6O6d6
+7C8K8
+9G9Y9
+:j:s:
+;V;_;k;
+;#<[<
+8Y9y9i:
+:y<Y=">S>i>
+B0n0
+5F6S6+757
+8D8s8
+<)<o<u<
+='=1=9=D=t=
+]0*121A1y1
+3M4S4i4t4
+415D5v5
+6'6<6B6H6N6T6Z6a6h6o6v6}6
+7)707M7Y7e8
+=/=4=L=R=a=g=v=|=
+1%1,161>1K1R1
+5+5=5O5
+707c7
+8]8c8
+879=:
+0+0F0
+152F2
+313?3]3{3
+3]4z4
+999I9
+:-:a:m:|:
+:!;F;
+<n=}=
+0>0r0
+2f3H4
+5?6V6
+9%:+:
+;W<'?>?
+3P4t4~>
+)0/040:0A0S0
+444]4y4
+6!7A7Y7
+8,8Z8
+9Y9y9
+:):I:a:
+<1<I<i<
+<	=,=I=a=q=
+>,>L>
+?$?4?D?T?d?n?
+0(0F0d0t0
+1$1*1/1D1Z1d1
+2$2:2T2a2e2j2
+t3x3|3
+4$5(5,5054585<5@5D5H5L5P5T5p5t5x5|5
+8084888<8@8D8H8L8P8T8X8d8h8l8p8t8x8|8
+2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
+3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
+3h:t:
+9`<d<h<l<p<t<x<|<
+? ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
+0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
+1 1$1(1,101@1D1
+2L2P2T2X2\2`2
+: :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
+; ;$;(;,;0;4;8;<;@;D;H;L;T<X<l<p<
+=(=8=<=L=P=`=d=h=p=
+> >0>4>D>H>L>T>l>|>
+?$?(?0?H?X?\?l?p?t?|?
+0(0,0D0T0X0l0p0
+1$1(1,1@1D1T1X1h1l1p1t1|1
+2$24282H2L2T2l2|2
+3$3(303H3X3\3l3p3
+5,50585D5l5t5
+6,686X6d6
+7 7@7H7T7x7
+808P8X8`8h8p8x8
+9@9T9`9h9
+:<:H:P:h:p:x:|:
+;$;0;P;X;d;
+<4<<<D<\<
+=$=,=4=@=`=d=h=p=
+> >D>X>h>
+?$?D?L?T?`?
+0 0H0l0x0
+1 1(10181@1H1P1\1|1
+202<2\2h2
+3(3H3T3|3
+4,484@4`4
+545@5`5l5
+6<6H6h6p6x6
+7(7H7d7h7
+8,808P8X8\8t8x8
+94989@9H9P9T9\9p9
+: :@:`:|:
+; ;@;`;
+< <@<`<
+0(0D0H0d0h0l0
+1<1X1|1
+3 3$3(3,30<T<X<\<`<d<h<l<p<t<x<|<
+=,=D=`=|=
+101T1X1p1t1
+7$7,747<7D7L7T7\7d7l7t7|7
+=h=x=
+> >$>(>,>0>
+0 0$0(0,0004080<0@0D0H0X0`0d0h0l0p0t0x0|0
+0@1D1
+0(0.040>0H0N0T0Z0`0f0l0q0v0
+1[1a1
+1"2b2y2
+3(30393B3X3
+4!4+454>4J4R4]4g4r4
+5+505N5U5f5s5}5
+61686E6N6[6v6{6
+7!777E7J7T7e7l7w7
+8&8-8=8H8h8q8
+9"9*9=:
+2=2I2^2l2v2
+3"353H3W3b3
+4;4A4
+5*5X5f5q5
+7(7Y7d7k7
+818@8F8Q8X8]8d8w8
+: :.:
+:8;C;
+<-<?<
+?!?'?m?s?
+E0r0
+1!1(1/171?1G1S1\1a1g1q1z1
+2&292|2
+3!3K3Y3_3
+757:7I7R7_7j7|7
+8!8'858<8A8J8W8]8w8
+=W?b?j?}?
+1[1z1
+2b2j2}2
+3!363v3
+3l4y4
+5$5-5m5r5
+6!6E6l6y6
+7(808E8P879
+7(7/7C7J7q7w7
+8%83898E8K8X8b8i8
+9B9H9r9x9
+9L:o:y:
+;';-;=;C;X;f;q;x;
+<*<@<K<P<[<`<k<p<}<
+=(=_=h=t=
+?2?s?
+010O0q0|0
+1(121C1N1
+3 3%3+3
+3,4{4
+767>7I7X7a7v7
+888?8G8L8P8T8}8
+8.94989<9@9
+:+:]:d:h:l:p:t:x:|:
+:=;I;U<
+=/=M=a=g=
+=]>v>
+?/?f?q?
+"0'0l0q0x0}0
+2'2-2;2D2S2X2b2p2
+2M5T5Z5
+6D6s6,7
+7E8e8U9~9
+9e;E<
+=?=U=
+0!01080G0S0`0
+1+141X1
+1!2^2u2
+334@4J4X4a4k4
+5E5z5
+6b7n7
+8"8'868]8
+:=;T;e;
+>9?N?
+.0f0
+0(1.1R1u1
+3=3c3
+4f4q4
+5$5(5,5054585<5@5
+9(9J9
+:=;M;h;
+;*<F<
+=8=B=K=V=k=r=x=
+???K?r?
+1V1h1u1
+2E3h3
+4?5I5a5h5r5z5
+919C9U9g9y9
+=">Y>c>
+>7?D?
+#020
+151^1
+4f5l5r5x5
+6(6H6h6t6
+74787X7x7
+888T8X8x8
+9 9@9\9`9|9
+3$3,343<3D3L3T3\3`3d3
+<(<8<H<l<x<|<
+= =$=(=,=0=4=8=<=@=D=H=L=P=T=X=\=`=d=h=l=p=
+=h>l>

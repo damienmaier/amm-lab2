@@ -1,0 +1,4 @@
+[DEFAULT]
+PROFILE=WinXPSP2x86
+LOCATION=file:///home/remnux/labs/AMM/lab2/lab.raw
+KDBG=0x80545ae0

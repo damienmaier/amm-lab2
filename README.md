@@ -1,6 +1,5 @@
-# Questions
+# Writeup
 
-## What tool was used to compromise the system?
 
 Using plugins `cmdscan` and `consoles` we found evidence of an attacker trying to create a new user and add it to the local administrators group. The attacker also tried to exfiltrate the `shadow` and `passwd` files using `ftp` and `tftp` commands.
 
@@ -116,15 +115,33 @@ here's an extract of some strings that "proves" that it is a `meterpreter` shell
 * `ReflectiveLoader` -> as described in [https://www.offensive-security.com/metasploit-unleashed/about-meterpreter/](https://www.offensive-security.com/metasploit-unleashed/about-meterpreter/) the stager uses ReflectiveLoader to load the DLL into memory.
 * ImpersonateLoggedOnUser  -> this is a typical function used by `meterpreter` to impersonate the user.
 
-In short, the tool used by the attacker is `meterpreter` and the process where it has been injected is `svchost.exe` (Pid 1136).
+In short, the attacker used `metasploit` to get a `meterpreter` reverse shell, the process where it has been injected is `svchost.exe` (Pid 1136).
+
+The attacker then ran a `cmd` from there, he connected himself as root via `ftp` to a remote machine (192.168.174.128) where he downloaded `shadow` and `passwd` to the infected machine (192.168.174.148). He then used `tftp` to exfiltrate the files to his machine (192.168.1.104). 
+
+He then created an `admin` account to achieve persistence on the machine (he can now on connect himself with the `admin` account)
+
+# Questions
+
+## What tool was used to compromise the system?
+
+The attacker used `metasploit` to get a `meterpreter` reverse shell on the victim machine (192.168.174.148)
 
 ## What was the IP address of the attacker's machine?
 
+The attacker's machine IP address is `192.168.174.1` (the attacker exfiltrate data to this machine + the attacker connected himself to the victim machine via this IP address)
 
 ## What directory was created to store the files before exfiltration?
 
+The attacker created a directory called `system32` in the `C:\` directory.
+
 ## Where was data exfiltrated from?
 
+The attacker exfiltrated data from a Debian `ftp` server running on (192.168.174.128)
+
 ## How was exfiltration performed?
+From the infected machine, he connected himself to the `ftp` server via `ftp` and downloaded the `shadow` and `passwd` files to the infected machine. He then used `tftp` to exfiltrate the files to his machine (192.168.174.1)
 
 ## How was persistence maintained?
+
+The attacker created an `admin` account to achieve persistence on the machine (he can now on connect himself with the `admin` account)
